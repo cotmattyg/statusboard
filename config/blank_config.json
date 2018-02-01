@@ -1,0 +1,53 @@
+{
+  "weather": {
+    "api_key": "",
+    "location": ""
+  },
+  "table": {
+    "columns": [
+      {
+        "name": "",
+        "id": "",
+        "treatment": "text",
+        "width": 25
+      },
+      {
+        "name": "",
+        "id": [
+          "",
+          ""
+        ],
+        "treatment": "image",
+        "location": "",
+        "width": 25
+      },
+      {
+        "name": "",
+        "id": [
+          "",
+          ""
+        ],
+        "treatment": "icon",
+        "width": 25
+      },
+      {
+        "name": "Progress",
+        "id": [
+          "",
+          ""
+        ],
+        "treatment": "progressbar",
+        "width": 25
+      }
+    ],
+    "idAttribute": "project_folder",
+    "icons": {
+      "service_or_icon_name": {
+        "icon": "",
+        "name": ""
+      }
+    }
+  },
+  "logo": "",
+  "title": ""
+}

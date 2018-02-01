@@ -1,3 +1,6 @@
 /node_modules
 /_build
 /.idea
+/img/*
+/config/config.json
+.DS_Store

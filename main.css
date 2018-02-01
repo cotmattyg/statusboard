@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'RoadGeek';
+    src: url('./font/roadgeek.ttf')  format('truetype')
+}
+
+body {
+    margin: 0;
+    font-family: RoadGeek, sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    background: #222;
+    padding: 1em;
+}
+header h3 {
+    padding-top: 0.45em;
+}
+
+#logo img {
+    max-width: 100%;
+    height: 70px;
+    width: 225px;
+    margin-top: -0.5em;
+    margin-right: 0.5em;
+}
+
+#weather h3 {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+table {
+    font-size: 1.8rem;
+}
+
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img.userimg {
+    height: 48px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    transform: translateY(-8px);
+    margin-bottom: -16px;
+}
+
+svg {
+    margin-right: 0.5rem;
+}
+
+.progress {
+    margin-top: 1.1rem;
+    margin-right: 0.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+#legend span {
+    margin-right: 1rem;
+}

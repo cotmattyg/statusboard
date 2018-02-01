@@ -1,0 +1,76 @@
+{
+  "weather": {
+    "api_key": "your_weather_underground_key_here",
+    "location": "get your location from weather underground"
+  },
+  "table": {
+    "columns": [
+      {
+        "name": "Project Name",
+        "id": "project_name",
+        "treatment": "text",
+        "width": 35
+      },
+      {
+        "name": "Developer",
+        "id": [
+          "slack_user1",
+          "slack_user2"
+        ],
+        "treatment": "image",
+        "location": "./img/users/@@.jpg",
+        "width": 10
+      },
+      {
+        "name": "APIs Used",
+        "id": [
+          "api_1",
+          "api_2",
+          "api_3",
+          "api_4"
+        ],
+        "treatment": "icon",
+        "width": 15
+      },
+      {
+        "name": "Client",
+        "id": "project_client",
+        "treatment": "text",
+        "width": 15
+      },
+      {
+        "name": "Progress",
+        "id": [
+          "dev",
+          "qa",
+          "aoda",
+          "stage",
+          "prod"
+        ],
+        "treatment": "progressbar",
+        "width": 25
+      }
+    ],
+    "idAttribute": "project_folder",
+    "icons": {
+      "c3api": {
+        "icon": "cog",
+        "name": "C3API"
+      },
+      "domino": {
+        "icon": "server",
+        "name": "Domino"
+      },
+      "extract": {
+        "icon": "inbox-out",
+        "name": "Extract"
+      },
+      "scheduler": {
+        "icon": "alarm-clock",
+        "name": "Scheduler API"
+      }
+    }
+  },
+  "logo": "./img/citylogo.svg",
+  "title": "DTS Projects"
+}
